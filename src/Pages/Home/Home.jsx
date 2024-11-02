@@ -3,6 +3,7 @@ import Banner from './Banner'
 import BrandFeatures from './BrandFeatures'
 import Categories from './Categories'
 import LatestDeal from './LatestDeal'
+import BestSelling from './BestSelling'
 
 
 
@@ -12,7 +13,8 @@ const Home = () => {
       <Banner />
       <BrandFeatures />
       <Categories />
-      <LatestDeal/>
+      <LatestDeal />
+      <BestSelling/>
       </div>
   )
 }

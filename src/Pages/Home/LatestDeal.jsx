@@ -16,7 +16,7 @@ const LatestDeal = () => {
                               <h1 className='mb-5 text-xl font-extrabold'>Diabetic Strips </h1>
                               <button className='font-bold  bg-black/80 text-white/90 hover:bg-green-700 hover:text-white p-1 rounded-[5px]'>Shop Now</button>
                           </div>
-                          <img  className='w-2/5 rounded-bl-[50px] shadow-lg' src="https://www.lysunbio.com/uploads/202235326/wholesale-diabetic-test-strips29114366603.png" alt="" />
+                          <img  className='w-2/5 rounded-bl-[50px] shadow-md shadow-pink-400' src="https://www.lysunbio.com/uploads/202235326/wholesale-diabetic-test-strips29114366603.png" alt="" />
                       </div>
                   </div>
                   
@@ -27,7 +27,7 @@ const LatestDeal = () => {
                               <h1 className='mb-5 text-xl font-extrabold'>Statoscope</h1>
                               <button className='font-bold  bg-black/80 text-white/90 hover:bg-green-700 hover:text-white p-1 rounded-[5px]'>Shop Now</button>
                           </div>
-                          <img  className='w-2/5 rounded-bl-[50px] shadow-lg' src="https://img.freepik.com/premium-photo/medical-stethoscope-doctors-wellness-online-health-background-images-hd-wallpapers_976375-12205.jpg" alt="" />
+                          <img  className='w-2/5 rounded-bl-[50px] shadow-md shadow-pink-400' src="https://img.freepik.com/premium-photo/medical-stethoscope-doctors-wellness-online-health-background-images-hd-wallpapers_976375-12205.jpg" alt="" />
                       </div>
                   </div>
 
@@ -38,7 +38,7 @@ const LatestDeal = () => {
                               <h1 className='mb-5 text-xl font-extrabold'>Diabetic Neddles </h1>
                               <button className='font-bold  bg-black/80 text-white/90 hover:bg-green-700 hover:text-white p-1 rounded-[5px]'>Shop Now</button>
                           </div>
-                          <img  className='w-2/5 rounded-bl-[50px] shadow-lg' src="https://m.media-amazon.com/images/I/7193G-oiZlL._AC_UF1000,1000_QL80_.jpg" alt="" />
+                          <img  className='w-2/5 rounded-bl-[50px] shadow-md shadow-pink-400' src="https://m.media-amazon.com/images/I/7193G-oiZlL._AC_UF1000,1000_QL80_.jpg" alt="" />
                       </div>
                   </div>
 

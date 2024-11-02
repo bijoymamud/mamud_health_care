@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "product_name": "Wireless Earbuds",
+      "rating": 4.5,
+      "recent_price": 59.99,
+      "discount": 10,
+      "img": "https://example.com/images/earbuds.jpg"
+    },
+    {
+      "id": 2,
+      "product_name": "Smart Watch",
+      "rating": 4.2,
+      "recent_price": 129.99,
+      "discount": 15,
+      "img": "https://example.com/images/smartwatch.jpg"
+    },
+    {
+      "id": 3,
+      "product_name": "Bluetooth Speaker",
+      "rating": 4.7,
+      "recent_price": 39.99,
+      "discount": 20,
+      "img": "https://example.com/images/speaker.jpg"
+    },
+    {
+      "id": 4,
+      "product_name": "Gaming Mouse",
+      "rating": 4.6,
+      "recent_price": 49.99,
+      "discount": 5,
+      "img": "https://example.com/images/mouse.jpg"
+    },
+    {
+      "id": 5,
+      "product_name": "4K Action Camera",
+      "rating": 4.3,
+      "recent_price": 99.99,
+      "discount": 25,
+      "img": "https://example.com/images/camera.jpg"
+    }
+  ]
+  
