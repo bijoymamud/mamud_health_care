@@ -15,7 +15,7 @@ const Main = () => {
       <div className=" flex justify-between gap-10 text-purple-700 text-lg py-3">
              <div className='flex gap-16 font-bold'>
                <a href="#" className="hover:underline text-gray-700 hover:text-[#A72D8F]">Home</a>
-               <a href="#" className="hover:underline text-gray-700 hover:text-[#A72D8F]">Categories</a>
+               <a href="#" className="hover:underline text-gray-700 hover:text-[#A72D8F]">Products</a>
                <a href="#" className="hover:underline text-gray-700 hover:text-[#A72D8F]">About Us</a>
                <a href="#" className="hover:underline text-gray-700 hover:text-[#A72D8F]">Blog</a>
                <a href="#" className="hover:underline text-gray-700 hover:text-[#A72D8F]">Contact</a>

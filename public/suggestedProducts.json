@@ -1,0 +1,163 @@
+[
+    {
+      "id": 1,
+      "img": "https://m.media-amazon.com/images/I/71O0RnEMOsL._AC_SL1500_.jpg",
+      "discount": 15,
+      "recent_price": 25.99,
+      "rating": 4.3,
+      "product_name": "Digital Thermometer"
+    },
+    {
+      "id": 2,
+      "img": "https://m.media-amazon.com/images/I/61uKLSS9zPL._AC_SL1500_.jpg",
+      "discount": 10,
+      "recent_price": 15.49,
+      "rating": 4.5,
+      "product_name": "Blood Pressure Monitor"
+    },
+    {
+      "id": 3,
+      "img": "https://m.media-amazon.com/images/I/61QKM2MZT-L._AC_SL1500_.jpg",
+      "discount": 20,
+      "recent_price": 49.99,
+      "rating": 4.7,
+      "product_name": "Pulse Oximeter"
+    },
+    {
+      "id": 4,
+      "img": "https://m.media-amazon.com/images/I/71FvH8B1lGL._AC_SL1500_.jpg",
+      "discount": 25,
+      "recent_price": 19.99,
+      "rating": 4.2,
+      "product_name": "Medical Face Mask (50 pcs)"
+    },
+    {
+      "id": 5,
+      "img": "https://m.media-amazon.com/images/I/81PJDDE2yLL._AC_SL1500_.jpg",
+      "discount": 18,
+      "recent_price": 7.99,
+      "rating": 4.0,
+      "product_name": "Hand Sanitizer (500 ml)"
+    },
+    {
+      "id": 6,
+      "img": "https://m.media-amazon.com/images/I/71iwbKQ2KiL._AC_SL1500_.jpg",
+      "discount": 12,
+      "recent_price": 29.99,
+      "rating": 4.6,
+      "product_name": "Nebulizer Machine"
+    },
+    {
+      "id": 7,
+      "img": "https://m.media-amazon.com/images/I/61b5FgFVzGL._AC_SL1500_.jpg",
+      "discount": 22,
+      "recent_price": 59.99,
+      "rating": 4.4,
+      "product_name": "Infrared Forehead Thermometer"
+    },
+    {
+      "id": 8,
+      "img": "https://m.media-amazon.com/images/I/81y9hFDRp3L._AC_SL1500_.jpg",
+      "discount": 30,
+      "recent_price": 10.99,
+      "rating": 4.1,
+      "product_name": "Disposable Gloves (100 pcs)"
+    },
+    {
+      "id": 9,
+      "img": "https://m.media-amazon.com/images/I/71cMD7mqRGL._AC_SL1500_.jpg",
+      "discount": 5,
+      "recent_price": 3.49,
+      "rating": 4.0,
+      "product_name": "Alcohol Prep Pads (100 pcs)"
+    },
+    {
+      "id": 10,
+      "img": "https://m.media-amazon.com/images/I/81sxn2CmCtL._AC_SL1500_.jpg",
+      "discount": 35,
+      "recent_price": 49.95,
+      "rating": 4.8,
+      "product_name": "First Aid Kit"
+    },
+    {
+      "id": 11,
+      "img": "https://m.media-amazon.com/images/I/71X1-3LKRNL._AC_SL1500_.jpg",
+      "discount": 15,
+      "recent_price": 39.99,
+      "rating": 4.6,
+      "product_name": "Digital Weighing Scale"
+    },
+    {
+      "id": 12,
+      "img": "https://m.media-amazon.com/images/I/71aDNpNOr9L._AC_SL1500_.jpg",
+      "discount": 12,
+      "recent_price": 89.99,
+      "rating": 4.9,
+      "product_name": "Ultrasound Gel (1 liter)"
+    },
+    {
+      "id": 13,
+      "img": "https://m.media-amazon.com/images/I/81Tc1lhLUhL._AC_SL1500_.jpg",
+      "discount": 28,
+      "recent_price": 12.99,
+      "rating": 4.4,
+      "product_name": "Sterile Gauze Pads (50 pcs)"
+    },
+    {
+      "id": 14,
+      "img": "https://m.media-amazon.com/images/I/81e+bf4kWaL._AC_SL1500_.jpg",
+      "discount": 8,
+      "recent_price": 8.99,
+      "rating": 4.3,
+      "product_name": "Nasal Aspirator"
+    },
+    {
+      "id": 15,
+      "img": "https://m.media-amazon.com/images/I/71dmV6wRQjL._AC_SL1500_.jpg",
+      "discount": 25,
+      "recent_price": 69.99,
+      "rating": 4.7,
+      "product_name": "Oxygen Concentrator"
+    },
+    {
+      "id": 16,
+      "img": "https://m.media-amazon.com/images/I/61pOrNvTMrL._AC_SL1500_.jpg",
+      "discount": 14,
+      "recent_price": 15.99,
+      "rating": 4.2,
+      "product_name": "Medical Surgical Tape"
+    },
+    {
+      "id": 17,
+      "img": "https://m.media-amazon.com/images/I/61FCINmuD4L._AC_SL1500_.jpg",
+      "discount": 10,
+      "recent_price": 5.99,
+      "rating": 4.1,
+      "product_name": "Adhesive Bandages (100 pcs)"
+    },
+    {
+      "id": 18,
+      "img": "https://m.media-amazon.com/images/I/71OXVne4rpL._AC_SL1500_.jpg",
+      "discount": 18,
+      "recent_price": 24.99,
+      "rating": 4.5,
+      "product_name": "Portable ECG Monitor"
+    },
+    {
+      "id": 19,
+      "img": "https://m.media-amazon.com/images/I/81QkPoSaROL._AC_SL1500_.jpg",
+      "discount": 15,
+      "recent_price": 12.49,
+      "rating": 4.3,
+      "product_name": "Disposable Syringes (50 pcs)"
+    },
+    {
+      "id": 20,
+      "img": "https://m.media-amazon.com/images/I/71YJsUtvjXL._AC_SL1500_.jpg",
+      "discount": 20,
+      "recent_price": 109.99,
+      "rating": 4.8,
+      "product_name": "Blood Glucose Monitor Kit"
+    }
+  ]
+  
