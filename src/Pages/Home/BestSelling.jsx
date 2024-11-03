@@ -8,7 +8,9 @@ const BestSelling = () => {
     const [bestProducts] = useBestSelling();
     console.log(bestProducts)
 
-
+    const handleAddCart = (id) => {
+        console.log(id)
+}
 
   return (
     <section className='py-10'>
@@ -26,21 +28,23 @@ const BestSelling = () => {
                   </div>
               </div>
 
-              <div className='grid grid-cols-5 gap-3 '>
+              <div className='grid md:grid-cols-5 gap-3 '>
                   {
                       bestProducts.map((product) => <div
                           className="card bg-base-100 shadow-md shadow-pink-200 border">
                       <figure className="px-3 pt-3">
                         <img
-                          src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                          alt="Shoes"
-                          className="rounded-xl" />
+                          src={ product.img}
+                          alt={product.product_name}
+                          className="rounded-xl w-[150px] h-[150px]" />
                       </figure>
                       <div className=" px-3 py-3">
-                        <h2 className="card-title">Shoes!</h2>
+                              <h2 className="card-title">{ product.product_name}</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
-                        <div className="card-actions">
-                          <button className=" mt-5 mx-auto border-2 border-pink-700 p-1 px-5 flex items-center gap-1 bg-gradient-to-r from-[#CB2584] to-[#792D8F]  text-white rounded-md"><ShoppingCart size={20}/>Add Item</button>
+                              <div className="card-actions">
+                                  
+                                  <button onClick={()=>handleAddCart(product)} className=" mt-5 mx-auto p-1 px-5 flex items-center gap-1 bg-gradient-to-r from-[#CB2584] to-[#792D8F] hover:from-[#5C236E] hover:to-[#c0478b] text-white rounded-md "><ShoppingCart size={20} />Add Item</button>
+                                  
                         </div>
                       </div>
                     </div>)

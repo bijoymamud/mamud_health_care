@@ -1,43 +1,43 @@
 [
     {
       "id": 1,
-      "product_name": "Wireless Earbuds",
+      "product_name": "Nebulizer Machine",
       "rating": 4.5,
-      "recent_price": 59.99,
-      "discount": 10,
-      "img": "https://example.com/images/earbuds.jpg"
+      "recent_price": 1650,
+      "discount": 50,
+      "img": "https://kripamedservices.in/wp-content/uploads/2024/01/nebulizer.png"
     },
     {
       "id": 2,
-      "product_name": "Smart Watch",
+      "product_name": "Strips",
       "rating": 4.2,
-      "recent_price": 129.99,
+      "recent_price":250,
       "discount": 15,
-      "img": "https://example.com/images/smartwatch.jpg"
+      "img": "https://wealzin.com.bd/wp-content/uploads/2023/04/OneTouch-Ultra-Glucose-Test-Strip.jpg"
     },
     {
       "id": 3,
-      "product_name": "Bluetooth Speaker",
+      "product_name": "ALPK2 BP Machine",
       "rating": 4.7,
-      "recent_price": 39.99,
-      "discount": 20,
-      "img": "https://example.com/images/speaker.jpg"
+      "recent_price": 1050,
+      "discount": 50,
+      "img": "https://cdn.osudpotro.com/products/alrk2-1-1633252346764.webp"
     },
     {
       "id": 4,
-      "product_name": "Gaming Mouse",
+      "product_name": "Thermometer",
       "rating": 4.6,
       "recent_price": 49.99,
       "discount": 5,
-      "img": "https://example.com/images/mouse.jpg"
+      "img": "https://www.biolandbd.com/public/back_end/assets/product_images/J7k08072112074050.jpg"
     },
     {
       "id": 5,
-      "product_name": "4K Action Camera",
+      "product_name": "Soft Tissue Grasper",
       "rating": 4.3,
       "recent_price": 99.99,
       "discount": 25,
-      "img": "https://example.com/images/camera.jpg"
+      "img": "https://cdn11.bigcommerce.com/s-oj1qjzs8ry/images/stencil/1280x1280/products/13717/2116/72-34270__39258.1707168843.jpg?c=1"
     }
   ]
   
