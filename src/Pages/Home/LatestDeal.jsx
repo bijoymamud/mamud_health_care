@@ -5,7 +5,7 @@ import { BadgeDollarSign } from 'lucide-react'
 
 const LatestDeal = () => {
   return (
-    <section className='md:pt-20 md:pb-10'>
+    <section className='md:mt-20 md:pt-20 md:pb-10'>
     <Container>
               <div className='grid grid-cols-3 gap-5'>
                   

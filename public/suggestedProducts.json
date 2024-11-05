@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "img": "https://m.media-amazon.com/images/I/71O0RnEMOsL._AC_SL1500_.jpg",
+      "img": "https://img.drz.lazcdn.com/static/bd/p/c89d5a5f0cbaf69afcabc50906bc2ecd.jpg_720x720q80.jpg_.webp",
       "discount": 15,
       "recent_price": 25.99,
       "rating": 4.3,
@@ -9,15 +9,15 @@
     },
     {
       "id": 2,
-      "img": "https://m.media-amazon.com/images/I/61uKLSS9zPL._AC_SL1500_.jpg",
+      "img": "https://www.omron-healthcare.co.uk/img/asset/bWVkaWEvcHJvZHVjdHMvbTNfY29tZm9ydF8wMi0xLmpwZw==/m3_comfort_02-1.jpg?w=1600&h=1600&fit=crop&fm=jpg&s=7ccdebdd0a0974bb4053501bbf0fdf9e",
       "discount": 10,
       "recent_price": 15.49,
       "rating": 4.5,
-      "product_name": "Blood Pressure Monitor"
+      "product_name": "Pressure Monitor"
     },
     {
       "id": 3,
-      "img": "https://m.media-amazon.com/images/I/61QKM2MZT-L._AC_SL1500_.jpg",
+      "img": "https://smartwellness.com.au/wp-content/uploads/2022/08/Heart-Sure-Bluetooth-Pulse-Oximeter-Out-Of-Packaging-Screen-On-Low-bpmPR-3D-1.jpg",
       "discount": 20,
       "recent_price": 49.99,
       "rating": 4.7,
@@ -25,23 +25,23 @@
     },
     {
       "id": 4,
-      "img": "https://m.media-amazon.com/images/I/71FvH8B1lGL._AC_SL1500_.jpg",
+      "img": "https://images.othoba.com/images/thumbs/0350656_getwell-face-mask-non-woven-50pcs_400.jpeg",
       "discount": 25,
       "recent_price": 19.99,
       "rating": 4.2,
-      "product_name": "Medical Face Mask (50 pcs)"
+      "product_name": "Medical Face Mask"
     },
     {
       "id": 5,
-      "img": "https://m.media-amazon.com/images/I/81PJDDE2yLL._AC_SL1500_.jpg",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDYQePDW5OP2xoPaxU6JeAsc9RXvoNKDwgLQ&s",
       "discount": 18,
       "recent_price": 7.99,
       "rating": 4.0,
-      "product_name": "Hand Sanitizer (500 ml)"
+      "product_name": "Hand Sanitizer "
     },
     {
       "id": 6,
-      "img": "https://m.media-amazon.com/images/I/71iwbKQ2KiL._AC_SL1500_.jpg",
+      "img": "https://www.medistorebd.com/wp-content/uploads/2018/03/poraxy-cool-mist-inhaler-compressor.jpg",
       "discount": 12,
       "recent_price": 29.99,
       "rating": 4.6,
@@ -49,7 +49,7 @@
     },
     {
       "id": 7,
-      "img": "https://m.media-amazon.com/images/I/61b5FgFVzGL._AC_SL1500_.jpg",
+      "img": "https://www.cnwtc.com/uploads/202132262/body-forehead-handheld-thermometer-medical38582866167.jpg",
       "discount": 22,
       "recent_price": 59.99,
       "rating": 4.4,
@@ -57,23 +57,23 @@
     },
     {
       "id": 8,
-      "img": "https://m.media-amazon.com/images/I/81y9hFDRp3L._AC_SL1500_.jpg",
+      "img": "https://atlantisdecora.com/public/products/prod-6617075.otica-latex-hand-gloves-medical-examination-powdered-examination-gloves-pack-of-100-pcs-white-500x500.webp",
       "discount": 30,
       "recent_price": 10.99,
       "rating": 4.1,
-      "product_name": "Disposable Gloves (100 pcs)"
+      "product_name": "Disposable Gloves"
     },
     {
       "id": 9,
-      "img": "https://m.media-amazon.com/images/I/71cMD7mqRGL._AC_SL1500_.jpg",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPXvqM-AQx0cPqDqmpqtKgjoAYDTb5a1chfA&s",
       "discount": 5,
       "recent_price": 3.49,
       "rating": 4.0,
-      "product_name": "Alcohol Prep Pads (100 pcs)"
+      "product_name": "Alcohol Pads"
     },
     {
       "id": 10,
-      "img": "https://m.media-amazon.com/images/I/81sxn2CmCtL._AC_SL1500_.jpg",
+      "img": "https://cdn11.bigcommerce.com/s-c0v7r/images/stencil/1440x1440/products/672/1998/Gym_First_Aid_Kit_KITGYM1-1__75392.1519037560.jpg?c=2",
       "discount": 35,
       "recent_price": 49.95,
       "rating": 4.8,
@@ -81,7 +81,7 @@
     },
     {
       "id": 11,
-      "img": "https://m.media-amazon.com/images/I/71X1-3LKRNL._AC_SL1500_.jpg",
+      "img": "https://m.media-amazon.com/images/I/51knBNJjguL._AC_UF350,350_QL80_.jpg",
       "discount": 15,
       "recent_price": 39.99,
       "rating": 4.6,
@@ -89,7 +89,7 @@
     },
     {
       "id": 12,
-      "img": "https://m.media-amazon.com/images/I/71aDNpNOr9L._AC_SL1500_.jpg",
+      "img": "https://anagel.com/cdn/shop/files/07_1_ULTRASOUND-GEL_1000ml.png?v=1718209177&width=2400",
       "discount": 12,
       "recent_price": 89.99,
       "rating": 4.9,
@@ -97,15 +97,15 @@
     },
     {
       "id": 13,
-      "img": "https://m.media-amazon.com/images/I/81Tc1lhLUhL._AC_SL1500_.jpg",
+      "img": "https://www.zedmed.co.uk/cdn/shop/files/Sterile-Gauze-Swabs-10cm-x-10cm-x-50_41395545342269.jpg?v=1715599286",
       "discount": 28,
       "recent_price": 12.99,
       "rating": 4.4,
-      "product_name": "Sterile Gauze Pads (50 pcs)"
+      "product_name": "Sterile Gauze Pads"
     },
     {
       "id": 14,
-      "img": "https://m.media-amazon.com/images/I/81e+bf4kWaL._AC_SL1500_.jpg",
+      "img": "https://www.babyshoppers.com.bd/wp-content/uploads/2024/07/Pigeon-Baby-Nasal-Aspirator.png",
       "discount": 8,
       "recent_price": 8.99,
       "rating": 4.3,
@@ -113,7 +113,7 @@
     },
     {
       "id": 15,
-      "img": "https://m.media-amazon.com/images/I/71dmV6wRQjL._AC_SL1500_.jpg",
+      "img": "https://everoxygenbd.com/wp-content/uploads/2023/12/Elite-10L-Oxygen-Concentrator-Price-in-Dhaka-BD.webp",
       "discount": 25,
       "recent_price": 69.99,
       "rating": 4.7,
@@ -121,7 +121,7 @@
     },
     {
       "id": 16,
-      "img": "https://m.media-amazon.com/images/I/61pOrNvTMrL._AC_SL1500_.jpg",
+      "img": "https://www.anandexim.com/wp-content/uploads/2016/05/2.jpg",
       "discount": 14,
       "recent_price": 15.99,
       "rating": 4.2,
@@ -129,15 +129,15 @@
     },
     {
       "id": 17,
-      "img": "https://m.media-amazon.com/images/I/61FCINmuD4L._AC_SL1500_.jpg",
+      "img": "https://tigermedical.com/cdn/shop/files/NDCP150115_1fc59ac4-c969-4268-9452-dd045c5c04f2_868x700.jpg?v=1688973213",
       "discount": 10,
       "recent_price": 5.99,
       "rating": 4.1,
-      "product_name": "Adhesive Bandages (100 pcs)"
+      "product_name": "Adhesive Bandages"
     },
     {
       "id": 18,
-      "img": "https://m.media-amazon.com/images/I/71OXVne4rpL._AC_SL1500_.jpg",
+      "img": "https://static.wixstatic.com/media/c3f028_18ea18b03ba243ae9d586b783146efa2~mv2.jpg/v1/fill/w_520,h_520,al_c,lg_1,q_90,enc_auto/1.jpg",
       "discount": 18,
       "recent_price": 24.99,
       "rating": 4.5,
@@ -145,19 +145,19 @@
     },
     {
       "id": 19,
-      "img": "https://m.media-amazon.com/images/I/81QkPoSaROL._AC_SL1500_.jpg",
+      "img": "https://5.imimg.com/data5/SELLER/Default/2022/11/GQ/YA/KW/45445671/disposable-syringes-2-500x500.jpg",
       "discount": 15,
       "recent_price": 12.49,
       "rating": 4.3,
-      "product_name": "Disposable Syringes (50 pcs)"
+      "product_name": "Disposable Syringes"
     },
     {
       "id": 20,
-      "img": "https://m.media-amazon.com/images/I/71YJsUtvjXL._AC_SL1500_.jpg",
+      "img": "https://i.chaldn.com/_mpimage/safe-accu-blood-glucose-monitor-device-kit?src=https%3A%2F%2Feggyolk.chaldal.com%2Fapi%2FPicture%2FRaw%3FpictureId%3D135797&q=best&v=1&m=400&m=1600",
       "discount": 20,
       "recent_price": 109.99,
       "rating": 4.8,
-      "product_name": "Blood Glucose Monitor Kit"
+      "product_name": "Diabetic Kit"
     }
   ]
   

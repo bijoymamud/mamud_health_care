@@ -5,7 +5,9 @@
       "rating": 4.5,
       "recent_price": 1650,
       "discount": 50,
-      "img": "https://kripamedservices.in/wp-content/uploads/2024/01/nebulizer.png"
+      "img": "https://kripamedservices.in/wp-content/uploads/2024/01/nebulizer.png",
+      "description": "A nebulizer is a small machine that turns liquid medicine into a mist that can be easily inhaled. "
+      
     },
     {
       "id": 2,
@@ -13,7 +15,8 @@
       "rating": 4.2,
       "recent_price":250,
       "discount": 15,
-      "img": "https://wealzin.com.bd/wp-content/uploads/2023/04/OneTouch-Ultra-Glucose-Test-Strip.jpg"
+      "img": "https://wealzin.com.bd/wp-content/uploads/2023/04/OneTouch-Ultra-Glucose-Test-Strip.jpg",
+       "description":" Diabetes test strips are an easy way to test your blood sugar, aka your glucose levels."
     },
     {
       "id": 3,
@@ -21,7 +24,8 @@
       "rating": 4.7,
       "recent_price": 1050,
       "discount": 50,
-      "img": "https://cdn.osudpotro.com/products/alrk2-1-1633252346764.webp"
+      "img": "https://cdn.osudpotro.com/products/alrk2-1-1633252346764.webp",
+      "description": "Utilizes advanced measurement technology for precise blood pressure monitoring."
     },
     {
       "id": 4,
@@ -29,7 +33,8 @@
       "rating": 4.6,
       "recent_price": 49.99,
       "discount": 5,
-      "img": "https://www.biolandbd.com/public/back_end/assets/product_images/J7k08072112074050.jpg"
+      "img": "https://www.biolandbd.com/public/back_end/assets/product_images/J7k08072112074050.jpg",
+      "description": "Non-Contact High-Precision Thermometer Handheld Smart Forehead Temperature."
     },
     {
       "id": 5,
@@ -37,7 +42,8 @@
       "rating": 4.3,
       "recent_price": 99.99,
       "discount": 25,
-      "img": "https://cdn11.bigcommerce.com/s-oj1qjzs8ry/images/stencil/1280x1280/products/13717/2116/72-34270__39258.1707168843.jpg?c=1"
+      "img": "https://cdn11.bigcommerce.com/s-oj1qjzs8ry/images/stencil/1280x1280/products/13717/2116/72-34270__39258.1707168843.jpg?c=1",
+      "description": "The selection includes a variety of reusable tissue graspers."
     }
   ]
   

@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom"
+import { Link, Outlet } from "react-router-dom"
 import Navbar from "../components/Navbar/Navbar"
 import Container from "../components/container"
 import { MailPlus, PhoneCall, Search } from 'lucide-react';
@@ -14,11 +14,12 @@ const Main = () => {
       <Container>
       <div className=" flex justify-between gap-10 text-purple-700 text-lg py-3">
              <div className='flex gap-16 font-bold'>
-               <a href="#" className="hover:underline text-gray-700 hover:text-[#A72D8F]">Home</a>
+               <Link to="/" className="hover:underline text-gray-700 hover:text-[#A72D8F]">Home</Link>
                <a href="#" className="hover:underline text-gray-700 hover:text-[#A72D8F]">Products</a>
-               <a href="#" className="hover:underline text-gray-700 hover:text-[#A72D8F]">About Us</a>
+            
+            <Link to="/about" className="hover:underline text-gray-700 hover:text-[#A72D8F]">About Us</Link>
                <a href="#" className="hover:underline text-gray-700 hover:text-[#A72D8F]">Blog</a>
-               <a href="#" className="hover:underline text-gray-700 hover:text-[#A72D8F]">Contact</a>
+               <Link  to="/contact" className="hover:underline text-gray-700 hover:text-[#A72D8F]">Contact</Link>
            </div>
                <a href="#" className="text-purple-700 font-semibold">Limited Time Offer</a>
        </div>
