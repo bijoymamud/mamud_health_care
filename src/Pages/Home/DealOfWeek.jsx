@@ -15,7 +15,7 @@ const deals = [
     image1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHxGWtaI2_qlp6Saxw0S5LvGyp_gJGlEGJoQ&s",
     image2: "https://static8.depositphotos.com/1002077/848/i/450/depositphotos_8482965-stock-photo-medical-devices.jpg",
   },
-  // Add more deals as needed
+
 ]
 
 export default function DealOfWeek() {
@@ -82,21 +82,21 @@ export default function DealOfWeek() {
                     />
                   </div>
                   
-                  <div className="flex gap-4 justify-center flex-1">
-                    <div className="flex flex-col items-center bg-primary/20 rounded-full w-16 h-16 justify-center">
-                      <span className="text-lg font-bold">{timeLeft.days}</span>
+                  <div className="flex gap-8 justify-center flex-1">
+                    <div className="flex flex-col items-center  bg-black/70 text-white w-16 h-16 justify-center">
+                      <span className="text-2xl font-bold">{timeLeft.days}</span>
                       <span className="text-xs">Days</span>
                     </div>
-                    <div className="flex flex-col items-center bg-primary/20 rounded-full w-16 h-16 justify-center">
-                      <span className="text-lg font-bold">{timeLeft.hours}</span>
+                    <div className="flex flex-col items-center bg-black/70 text-white  w-16 h-16 justify-center">
+                      <span className="text-2xl font-bold">{timeLeft.hours}</span>
                       <span className="text-xs">Hours</span>
                     </div>
-                    <div className="flex flex-col items-center bg-primary/20 rounded-full w-16 h-16 justify-center">
-                      <span className="text-lg font-bold">{timeLeft.minutes}</span>
+                    <div className="flex flex-col items-center  bg-black/70 text-white  w-16 h-16 justify-center">
+                      <span className="text-2xl font-bold">{timeLeft.minutes}</span>
                       <span className="text-xs">Mins</span>
                     </div>
-                    <div className="flex flex-col items-center bg-primary/20 rounded-full w-16 h-16 justify-center">
-                      <span className="text-lg font-bold">{timeLeft.seconds}</span>
+                    <div className="flex flex-col items-center  bg-black/70 text-white  w-16 h-16 justify-center">
+                      <span className="text-2xl font-bold">{timeLeft.seconds}</span>
                       <span className="text-xs">Secs</span>
                     </div>
                   </div>

@@ -1,7 +1,8 @@
 import React from 'react'
 import Container from '../../components/container'
 import useSuggestedProduct from '../../Hooks/useSuggestedProduct/useSuggestedProduct'
-import { ShoppingCart } from 'lucide-react';
+import { ShoppingCart, Star } from 'lucide-react';
+import { FaBangladeshiTakaSign } from 'react-icons/fa6';
 
 const SuggestedProduct = () => {
 
@@ -34,10 +35,15 @@ const SuggestedProduct = () => {
               alt={product.product_name}
               className="rounded-xl w-[150px] h-[150px]" />
           </figure>
-          <div className=" px-3 py-3 ">
+          <div className=" px-3 py-3 flex flex-col justify-between">
              <div>
                  <h2 className="card-title">{ product.product_name}</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  
+                 <p className='flex items-top '>Price: <span className='font-bold ms-2'>{product.recent_price}</span><FaBangladeshiTakaSign className='text-xs' /></p>
+                                    
+                                    <p className='flex items-top'>Discount: <span className=' text-red-400 ms-2 line-through'> { product.discount}</span><FaBangladeshiTakaSign className='text-xs'/></p>
+
+                                    <p ><span className='flex items-center gap-1'>Rating: { product.rating}<Star size={16} className='text-yellow-500'/></span></p>
              </div>
             <div className="card-actions">
                       

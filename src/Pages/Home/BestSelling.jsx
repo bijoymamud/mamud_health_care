@@ -2,7 +2,7 @@ import React from 'react'
 import Container from '../../components/container'
 import useBestSelling from '../../Hooks/useBestSelling/useBestSelling'
 import { ChevronRight, ShoppingCart, Star } from 'lucide-react';
-import { FaRightLeft, FaStar } from 'react-icons/fa6';
+import { FaBangladeshiTakaSign, FaRightLeft, FaStar } from 'react-icons/fa6';
 
 const BestSelling = () => {
     const [bestProducts] = useBestSelling();
@@ -40,9 +40,12 @@ const BestSelling = () => {
                         </figure>
                         <div className=" px-3 py-3 flex flex-col justify-between">
                                 <div>
-                                <h2 className="card-title">{ product.product_name}</h2>
-                                    <p>{product.description}</p>
-                                    <p ><span className='flex items-center gap-1'>Rating:{ product.rating}<Star size={16} className='text-yellow-500'/></span></p>
+                                    <h2 className="card-title">{product.product_name}</h2>
+                                    <p className='flex items-top '>Price: <span className='font-bold ms-2'>{product.recent_price}</span><FaBangladeshiTakaSign className='text-xs' /></p>
+                                    
+                                    <p className='flex items-top'>Discount: <span className=' text-red-400 ms-2 line-through'> { product.discount}</span><FaBangladeshiTakaSign className='text-xs'/></p>
+
+                                    <p ><span className='flex items-center gap-1'>Rating: { product.rating}<Star size={16} className='text-yellow-500'/></span></p>
                                 </div>
                                 <div className="card-actions">
                                     
