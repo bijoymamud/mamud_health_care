@@ -1,17 +1,40 @@
+// import { useEffect, useState } from 'react'
+
+// const useBlogData = () => {
+//     const [blogs, setBlogs] = useState();
+
+//     useEffect(() => {
+//        fetch("../../../public/blogData.json")
+//     }, [])
+//         .then(res => res.json())
+//         .then(data => {
+//         setBlogs(data)
+//         })
+    
+//     return [blogs]
+// }
+
+// export default useBlogData
+
+
 import React, { useEffect, useState } from 'react'
 
-const useBlogData = () => {
-    const [blogs, setBlogs] = useState();
+const useBlogs = () => {
+ 
+    const [blogs, setBlogs] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+
 
     useEffect(() => {
-       fetch("../../../public/blogData.json") 
-    }, [])
-        .then(res => res.json())
+        fetch('../../../public/blogData.json')
+        .then(res =>res.json())
         .then(data => {
-        setBlogs(data)
+            setIsLoading(true);
+            setBlogs(data)
         })
-    
-    return [blogs]
+    } ,[])
+
+    return [blogs, isLoading]
 }
 
-export default useBlogData
+export default useBlogs;

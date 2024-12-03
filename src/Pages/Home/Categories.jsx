@@ -13,7 +13,7 @@ const Categories = () => {
   ];
 
   return (
-      <Container className="pt-20 mb-5 h-screen">
+      <Container className="pt-20 mb-5 ">
           <div className="bg-white">
                       
               <h1 className='text-center mb-14'>
@@ -22,7 +22,7 @@ const Categories = () => {
 
       <div className="flex justify-start gap-20">
  
-        <aside className="p-4 bg-gray-100 rounded-lg shadow-md">
+        {/* <aside className="p-4 bg-gray-100 rounded-lg shadow-md">
          
           <div className="mb-6">
             <input
@@ -43,10 +43,10 @@ const Categories = () => {
           <button className="mt-8  w-full px-4 flex items-center py-3 border border-pink-700 text-pink-600 rounded-lg hover:bg-purple-700 hover:text-white transition font-bold">
             All Categories <ChevronRight size={20} className='mt-1' />
           </button>
-        </aside>
+        </aside> */}
 
        
-        <div className="grid grid-cols-3 gap-10">
+        <div className="grid grid-cols-4 gap-10">
           {categories.map((category, index) => (
             <div key={index} className="relative group rounded-lg overflow-hidden shadow-lg">
               <img

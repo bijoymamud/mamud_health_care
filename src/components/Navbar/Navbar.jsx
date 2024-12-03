@@ -2,23 +2,33 @@
 import { MailPlus, PhoneCall, Search } from 'lucide-react';
 import { FaUserAlt, FaQuestionCircle } from 'react-icons/fa';
 import Container from '../container';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <>
-    <div className="flex flex-col md:flex-row justify-between items-center text-purple-700  pt-1 text-sm">
-      <span>Welcome to Mamud Health Care!</span>
+    <div className="flex flex-col md:flex-row justify-between items-center  pt-1 text-sm">
+      <span className='text-purple-700 '>Welcome to Mamud Health Care!</span>
 
       {/* Top Right Links */}
       <div className="flex space-x-4 mt-2 md:mt-0">
-        <button className="flex items-center space-x-1 hover:text-purple-900">
+        <button className="flex items-center space-x-1 text-purple-700 ">
           <FaQuestionCircle />
           <span>Need Help</span>
         </button>
-        <button className="flex items-center space-x-1 hover:text-purple-900">
+        <div className="flex items-center space-x-1">
           <FaUserAlt />
-          <span>Sign Up/Sign In</span>
-        </button>
+          
+            <div>
+              <Link
+              to="/signup"
+              className='hover:text-purple-900'>Sign Up</Link> / 
+              
+              <Link
+              to="/login" 
+              className='hover:text-purple-900'> Sign In</Link>
+            </div>
+        </div>
       </div>
     </div>
 

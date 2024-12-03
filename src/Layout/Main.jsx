@@ -18,7 +18,7 @@ const Main = () => {
                <a href="#" className="hover:underline text-gray-700 hover:text-[#A72D8F]">Products</a>
             
             <Link to="/about" className="hover:underline text-gray-700 hover:text-[#A72D8F]">About Us</Link>
-               <a href="#" className="hover:underline text-gray-700 hover:text-[#A72D8F]">Blog</a>
+               <Link to="/blogs" className="hover:underline text-gray-700 hover:text-[#A72D8F]">Blog</Link>
                <Link  to="/contact" className="hover:underline text-gray-700 hover:text-[#A72D8F]">Contact</Link>
            </div>
                <a href="#" className="text-purple-700 font-semibold">Limited Time Offer</a>
