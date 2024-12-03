@@ -4,15 +4,13 @@ import useSuggestedProduct from "../../Hooks/useSuggestedProduct/useSuggestedPro
 import { ShoppingCart, Star } from "lucide-react";
 import { FaBangladeshiTakaSign } from "react-icons/fa6";
 
-const SuggestedProduct = () => {
+const Products = () => {
   const [suggestedProducts] = useSuggestedProduct(); 
-  const [showAll, setShowAll] = useState(false); 
-
   const handleAddCart = (product) => {
     console.log(product);
   };
 
-  const productsToShow = showAll ? suggestedProducts : suggestedProducts.slice(0, 10);
+  
 
   return (
     <section className="md:py-10">
@@ -20,14 +18,14 @@ const SuggestedProduct = () => {
         <div className="flex mb-2">
           <div>
             <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#CB2584] to-[#792D8F] text-xl">
-              Suggested For You
+              All Products For You
             </span>
             <div className="divider mt-0 h-[2px] bg-[#CB2584]"></div>
           </div>
         </div>
 
         <div className="grid grid-cols-5 gap-4">
-          {productsToShow.map((product) => (
+          {suggestedProducts.map((product) => (
             <div
               key={product.id} 
               className="card bg-base-100 shadow-md shadow-pink-200 border"
@@ -77,17 +75,10 @@ const SuggestedProduct = () => {
           ))}
         </div>
 
-        <div className="flex justify-center mt-5">
-          <button
-            onClick={() => setShowAll(!showAll)}
-            className="btn hover:bg-black/[95%] mt-5 bg-black/[80%] text-white border-none px-5 py-2 rounded-md"
-          >
-            {showAll ? "See Less" : "See More"}
-          </button>
-        </div>
+       
       </Container>
     </section>
   );
 };
 
-export default SuggestedProduct;
+export default Products;

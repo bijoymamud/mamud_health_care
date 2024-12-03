@@ -1,7 +1,8 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import { User, Mail, Lock, MapPin, Phone } from "lucide-react";
+import { User, Mail, Lock, MapPin, Phone, ImagePlus } from "lucide-react";
 import { Link } from "react-router-dom";
+import { FcGoogle } from "react-icons/fc";
 
 const SignUpPage = () => {
   const {
@@ -133,20 +134,21 @@ const SignUpPage = () => {
                 </span>
               )}
             </div><div className="relative">
-              <label className="block text-sm font-medium">Phone</label>
+              <label className="block text-sm font-medium">Image url</label>
               <div className="flex items-center">
                 <div className="absolute left-3 text-gray-400">
-                  <Phone className="w-5 h-5" />
+            
+                 <ImagePlus className="w-5 h-5"/>
                 </div>
                 <input
-                  type="tel"
-                  {...register("phone", { required: "Phone number is required" })}
+                  type="text"
+                  {...register("imgurl", { required: "Image Url is required" })}
                   className="input input-bordered w-full pl-10"
                 />
               </div>
-              {errors.phone && (
+              {errors.imgurl && (
                 <span className="text-red-500 text-sm">
-                  {errors.phone.message}
+                  {errors.imgurl.message}
                 </span>
               )}
             </div>
@@ -162,6 +164,23 @@ const SignUpPage = () => {
                   Already have an account? 
                   <Link to="/login" className="ms-2 font-semibold text-indigo-500">Sign In</Link>
               </h2>
+
+              <div className="mt-5">
+              <div className="flex w-2/3 mx-auto items-center">
+                <div className="card bg-base-300 rounded-box grid h-1 flex-grow place-items-center"></div>
+                <div className="divider font-bold">Sign up with</div>
+                    <div className="card bg-base-300 rounded-box grid h-1 flex-grow place-items-center"></div>
+                  </div>
+                  
+                  <div className="flex items-center gap-5 justify-center">
+                  <FcGoogle className="text-[32px] cursor-pointer"/>
+                      <span className="cursor-pointer">
+                      <img
+                    className="w-[36px]"
+                      src="https://static.vecteezy.com/system/resources/thumbnails/042/127/218/small_2x/round-circle-blue-facebook-logo-with-long-shadow-on-a-transparent-background-free-png.png" alt="" />
+                  </span>
+                  </div>
+              </div>
       </div>
     </div>
   );

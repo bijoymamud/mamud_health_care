@@ -79,7 +79,7 @@ const LoginPage = () => {
               />
               <span className="ml-2 text-sm">Remember me</span>
             </label>
-            <a href="#" className="text-sm text-blue-500">
+            <a href="#" className="text-sm text-indigo-600">
               Forgot Password?
             </a>
           </div>
@@ -89,7 +89,7 @@ const LoginPage = () => {
             LOGIN
           </button>
               </form>
-              <h2 className="text-center mt-2 text-sm">New to Mamud Heath Care?
+              <h2 className="text-center  text-sm mt-2">New to Mamud Heath Care?
                   <Link
                       to="/signup"
                       className="font-semibold text-indigo-500 ms-2">SignUp</Link>

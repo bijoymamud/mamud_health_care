@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar/Navbar"
 import Container from "../components/container"
 import { MailPlus, PhoneCall, Search } from 'lucide-react';
 import { FaUserAlt, FaQuestionCircle } from 'react-icons/fa';
+import Footer from "../components/Footer/Footer";
 const Main = () => {
   return (
       <div className="relative">
@@ -15,7 +16,9 @@ const Main = () => {
       <div className=" flex justify-between gap-10 text-purple-700 text-lg py-3">
              <div className='flex gap-16 font-bold'>
                <Link to="/" className="hover:underline text-gray-700 hover:text-[#A72D8F]">Home</Link>
-               <a href="#" className="hover:underline text-gray-700 hover:text-[#A72D8F]">Products</a>
+            <Link
+              to="/products"
+              className="hover:underline text-gray-700 hover:text-[#A72D8F]">Products</Link>
             
             <Link to="/about" className="hover:underline text-gray-700 hover:text-[#A72D8F]">About Us</Link>
                <Link to="/blogs" className="hover:underline text-gray-700 hover:text-[#A72D8F]">Blog</Link>
@@ -26,6 +29,8 @@ const Main = () => {
       </Container>
 
       <Outlet />
+
+      <Footer/>
       
     </div>
   )
