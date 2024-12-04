@@ -6,6 +6,7 @@ import LatestDeal from './LatestDeal'
 import BestSelling from './BestSelling'
 import DealOfWeek from './DealOfWeek'
 import SuggestedProduct from './SuggestedProduct'
+import AccordionUsage from './Accordian'
 
 
 
@@ -19,6 +20,7 @@ const Home = () => {
       <BestSelling />
       <DealOfWeek />
       <SuggestedProduct/>
+      <AccordionUsage/>
       </div>
   )
 }

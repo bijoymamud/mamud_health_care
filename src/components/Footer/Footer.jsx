@@ -7,15 +7,15 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer
-      className="relative bg-[url('https://siddharthpetro.com/wp-content/uploads/2019/09/Footer-Background-Image.png')] bg-cover bg-center text-white py-10 md:mt-[250px]"
+      className="border-t-2 border-amber-500 relative bg-[url('https://siddharthpetro.com/wp-content/uploads/2019/09/Footer-Background-Image.png')] bg-cover bg-center text-white py-10 md:mt-[250px]"
     >
       <Container>
-        <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Left Section */}
-          <div className="relative flex flex-col space-y-4">
-            <div className="absolute -top-[330px] transform translate-y-[50%] border-2 border-amber-500">
+          <div className="relative flex flex-col space-y-4 col-span-1">
+            <div className="absolute -top-[290px] transform translate-y-[50%] border-2 border-amber-500">
               <img
-                className="w-[300px]"
+                className="w-[250px]"
                 src="https://i.ibb.co/djYQ4Ww/Black-and-White-Circle-Business-Logo-1.png"
                 alt="logo"
               />
@@ -23,10 +23,10 @@ const Footer = () => {
           </div>
 
           {/* Right Section */}
-          <div>
+          <div className="col-span-2">
             {/* Subscribe */}
             <div className="mb-6">
-              <label htmlFor="email" className="block mb-2 text-sm font-medium">
+              <label htmlFor="email" className="block mb-2 text-md font-medium">
                 Want to know more about ?
               </label>
               <div className="flex">
@@ -67,7 +67,7 @@ const Footer = () => {
 
             {/* Copyright and Social Icons */}
             <div className="mt-6 flex items-center justify-between text-sm">
-              <p>All rights reserved © 2020</p>
+              <p>All rights reserved © 2024 by Mamud Health Care</p>
               <div className="flex space-x-4">
                 <a href="#" className="text-white hover:text-gray-300">
                   <Facebook size={20} />
