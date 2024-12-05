@@ -7,11 +7,12 @@ const LoginPage = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors },
+    formState: { errors }, reset
   } = useForm();
 
   const onSubmit = (data) => {
     console.log("Login Data", data);
+    reset()
   };
 
   return (
