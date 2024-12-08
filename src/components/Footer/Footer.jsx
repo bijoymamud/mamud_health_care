@@ -32,7 +32,7 @@ const Footer = () => {
               <div className="flex">
                 
               <Link
-                     to="/login"             
+                     to="/contact"             
                      className="bg-pink-500 px-6 py-2 rounded-r-lg text-white hover:bg-pink-600">
                   Join with us ...
                 </Link>

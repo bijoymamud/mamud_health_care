@@ -1,6 +1,8 @@
 import { CirclePlusIcon, ImagePlus } from 'lucide-react';
 import { FaBangladeshiTakaSign } from "react-icons/fa6";
+import { FaAlignLeft } from "react-icons/fa";
 import { TbDiscountOff } from "react-icons/tb";
+import { GiPolarStar } from "react-icons/gi";
 import React from 'react'
 import { useForm } from 'react-hook-form';
 import Container from '../../components/container';
@@ -37,7 +39,7 @@ const AddProducts = () => {
           className="input input-bordered w-full pl-10"
         />
       </div>
-      {errors.productName && <span>{ errors.productName.message}</span>}
+      {errors.productName && <span className='text-red-600'>{ errors.productName.message}</span>}
 
               </div>
 
@@ -50,11 +52,11 @@ const AddProducts = () => {
         </div>
         <input
           type="text"
-          {...register("productName", { required: "Product Name is required" })}
+          {...register("productImg", { required: "Product Image is required" })}
           className="input input-bordered w-full pl-10"
         />
       </div>
-      {errors.productName && <span>{ errors.productName.message}</span>}
+      {errors.productImg && <span className='text-red-600'>{ errors.productImg.message}</span>}
 
       
       </div>
@@ -70,11 +72,11 @@ const AddProducts = () => {
         </div>
         <input
           type="text"
-          {...register("productPrize", { required: "Product Name is required" })}
+          {...register("productPrize", { required: "Product Price is required" })}
           className="input input-bordered w-full pl-10"
         />
       </div>
-      {errors.productPrize && <span>{ errors.productPrize.message}</span>}
+      {errors.productPrize && <span className='text-red-600'>{ errors.productPrize.message}</span>}
 
               </div>
 
@@ -87,13 +89,48 @@ const AddProducts = () => {
         </div>
         <input
           type="text"
-          {...register("productName", { required: "Product Name is required" })}
+          {...register("discount", { required: "Discount is required" })}
           className="input input-bordered w-full pl-10"
         />
       </div>
-      {errors.productName && <span>{ errors.productName.message}</span>}
+      {errors.discount && <span className='text-red-600'>{ errors.discount.message}</span>}
 
-      
+      </div>
+            </div>
+
+    <div className='flex items-center gap-5 mt-5'>
+       <div className='relative w-2/4'>
+      <label className='block mb-2'>Product Category</label>
+    
+      <div className='flex items-center'>
+        <div className='absolute left-3'>
+          <FaAlignLeft className='w-5 h-5 text-gray-300'/>
+        </div>
+        <input
+          type="text"
+          {...register("category", { required: "Category is required" })}
+          className="input input-bordered w-full pl-10"
+        />
+      </div>
+      {errors.category && <span className='text-red-600'>{ errors.category.message}</span>}
+
+              </div>
+
+    <div className='relative w-2/4'>
+      <label className='block mb-2'>Rating</label>
+    
+      <div className='flex items-center'>
+        <div className='absolute left-3'>
+          <GiPolarStar className='w-5 h-5 text-gray-300'/>
+        </div>
+        <input
+          type="text"
+          {...register("rating", { required: " Place a rating" })}
+          className="input input-bordered w-full pl-10"
+        />
+      </div>
+      {errors.rating && <span className='text-red-600'>{ errors.rating.message}</span>}
+
       </div>
             </div>
     

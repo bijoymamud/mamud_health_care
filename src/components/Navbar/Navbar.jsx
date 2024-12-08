@@ -34,11 +34,13 @@ const Navbar = () => {
 
     {/* Search and Navigation Section */}
     <div className="flex flex-col md:flex-row justify-between items-center pb-2 md:space-x-4">
-      <img
+        <Link to="/">
+        <img
         className="w-[100px]"
         src="https://i.ibb.co.com/djYQ4Ww/Black-and-White-Circle-Business-Logo-1.png"
         alt="logo"
       />
+        </Link>
 
       <div className="flex items-center w-full md:w-1/3 bg-gray-50 drop-shadow-md rounded-full px-4 py-2 space-x-1">
         <Search size={20} className="text-purple-500 font-bold" />

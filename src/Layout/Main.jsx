@@ -20,7 +20,7 @@ const Main = () => {
               to="/products"
               className="hover:underline text-gray-700 hover:text-[#A72D8F]">Products</Link>
             
-            <Link to="/about" className="hover:underline text-gray-700 hover:text-[#A72D8F]">About Us</Link>
+            <Link to="/aboutUs" className="hover:underline text-gray-700 hover:text-[#A72D8F]">About Us</Link>
                <Link to="/blogs" className="hover:underline text-gray-700 hover:text-[#A72D8F]">Blog</Link>
                <Link  to="/contact" className="hover:underline text-gray-700 hover:text-[#A72D8F]">Contact</Link>
            </div>
