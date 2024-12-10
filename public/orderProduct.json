@@ -1,33 +1,57 @@
 {
     "id": 1,
     "name": "Bioland 4G Blood Pressure Monitor",
-    "category": "God",
-    "brand": "iPhone",
-    "price": 70000,
-    "currency": "₹",
+    "category": "Bp Machine",
+    "brand": "Bioland",
+    "price": 3500,
+    "currency": "৳",
     "images": [
-      "/placeholder.svg?height=600&width=600",
-      "/placeholder.svg?height=100&width=100",
-      "/placeholder.svg?height=100&width=100",
-      "/placeholder.svg?height=100&width=100",
-      "/placeholder.svg?height=100&width=100"
+      "https://images-na.ssl-images-amazon.com/images/I/71J5xRghgHL._AC_UL600_SR600,600_.jpg",
+      "https://the-shop-at-the-sight-center.myshopify.com/cdn/shop/products/premier-talking-blood-pressure-monitor-914.png?v=1519935381",
+      "https://healthway.com.bd/media/images/bioland_20062.original.jpegquality-30.format-jpeg.jpg"
     ],
-    "specifications": {
-      "Network": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
-      "Display": "Super Retina XDR OLED, HDR10, Dolby Vision, 800 nits (HBM), 1200 nits (peak)",
-      "Resolution": "1170 x 2532 pixels, 19.5:9 ratio (~460 ppi density)",
-      "Front Cameras": "12 MP, f/2.2, 23mm (wide), 1/3.6\"",
-      "Main Cameras": "12 MP, f/1.6, 26mm (wide), 1.7µm, dual pixel PDAF, sensor-shift OIS 12 MP, f/2.4, 120˚, 13mm (ultrawide)",
-      "Battery": "3325mAh",
-      "Operating_System": "iOS 15, upgradable to iOS 16.4",
-      "Processor": "CPU: T8120 \"A15 Bionic\"",
-      "Quantity": 15
+   "specifications": {
+    "communication": "Built-in NB module and SIM card for cellular and IoT Mobile communication",
+    "measurementUpload": "Measurement results are uploaded to the server within 10 seconds",
+    "features": [
+      "Armband self-check and wrong operation reminder",
+      "Irregular Heartbeat Detection (IHD)",
+      "Arteriosclerosis reminder with blood pressure indicator",
+      "Automatic shutdown: About 3 minutes"
+    ],
+    "display": "Large, high-definition LCD display",
+    "users": "Dual users can switch freely; double 50 groups of memories",
+    "cuffSize": "22 cm – 42 cm / 8.7 in – 16.5 in circumference",
+    "powerSource": "Built-in 1000 mAh rechargeable lithium battery",
+    "environmentalStorage": {
+      "temperature": "5°C – 40°C",
+      "humidity": "RH 15% – 80%"
     },
-    "variants": ["128", "256", "512"],
+    "measuringRange": {
+      "pressure": "0 – 280 mm Hg",
+      "pulse": "40 – 195 beats/min"
+    },
+    "packageIncludes": [
+      "1 x blood pressure monitor",
+      "1 x arm cuff",
+      "1 x user manual"
+    ],
+    "outputPower": "6V ±5%",
+    "measurementAccuracy": {
+      "pressure": "0 – 299 mm Hg (accuracy: ±3 mm Hg)",
+      "pulse": "40 – 199 pulses/min (accuracy: ±5%)"
+    },
+    "airPressureMode": "Micro air pump automatically inflates and electronic automatic control deflates",
+    "maximumOutputCurrent": "AI for 600 mA Output plug polarity: <+> internal",
+    "dimensions": {
+      "outerDiameter": "0.5 mm – 0.1 mm",
+      "internalDiameter": "2.1 mm – 0.1 mm"
+    }
+  },
+    "variants": ["red", "gray", "black"],
     "store": {
-      "name": "Mega Mall",
-      "type": "Cod",
-      "logo": "/placeholder.svg?height=40&width=40"
+      "name": "Mamud Health Care",
+      "logo": "https://i.ibb.co/djYQ4Ww/Black-and-White-Circle-Business-Logo-1.png?height=40&width=40"
     },
     "description": "The Bioland 4G Blood Pressure Monitor is the lowest-cost 4G device on the market and one of the easiest to use. This device combines the traditional testing kit (with multiple components) into one simple device with cellular-enabled 4G technology. This device is easy-to-use, durable, reliable, and accurate. In addition to the convenient design, the Bioland 4G Blood Pressure Monitor ties into any software platform. Please refer to our Developer Guide for integration steps."
   }

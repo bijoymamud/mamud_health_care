@@ -1,44 +1,32 @@
-
 import { useState } from "react"
 import productData from '../../../public/orderProduct.json'
 import Container from "../../components/container"
 
-export default function PlaceOrderPage() {
+export default function ProductPage() {
   const [quantity, setQuantity] = useState(1)
   const [selectedVariant, setSelectedVariant] = useState(productData.variants[0])
 
-  const increaseQuantity = () => setQuantity(prev => prev < productData.specifications.Quantity ? prev + 1 : prev)
+  const increaseQuantity = () => setQuantity(prev => prev + 1)
   const decreaseQuantity = () => setQuantity(prev => prev > 1 ? prev - 1 : 1)
 
   return (
       <Container>
-          <div className="container mx-auto py-8">
-      <div className="grid md:grid-cols-2 gap-8">
+          <div className="container mx-auto px-4 py-8">
+      <div className="grid md:grid-cols-2 gap-24 pt-20">
+        {/* Product Images */}
         <div className="space-y-4">
-          <div className="aspect-square relative overflow-hidden rounded-lg bg-base-200">
+          <div className="aspect-square relative overflow-hidden rounded-lg ">
             <img
               src={productData.images[0]}
               alt={productData.name}
               className="object-cover"
-              width={600}
-              height={600}
+              width={400}
+              height={200}
             />
-          </div>
-          <div className="grid grid-cols-4 gap-4">
-            {productData.images.slice(1).map((image, index) => (
-              <div key={index} className="aspect-square relative overflow-hidden rounded-lg bg-base-200">
-                <img
-                  src={image}
-                  alt={`${productData.name} view ${index + 1}`}
-                  className="object-cover"
-                  width={100}
-                  height={100}
-                />
-              </div>
-            ))}
           </div>
         </div>
 
+        {/* Product Info */}
         <div className="space-y-6">
           <div>
             <h1 className="text-3xl font-bold">{productData.name}</h1>
@@ -49,27 +37,39 @@ export default function PlaceOrderPage() {
           </div>
 
           <div className="space-y-4">
-            <h2 className="text-xl font-semibold">Specification:</h2>
+            <h2 className="text-xl font-semibold">Specifications:</h2>
             <div className="grid gap-4">
               {Object.entries(productData.specifications).map(([key, value]) => (
                 <div key={key} className="grid grid-cols-2">
-                  <span className="font-medium">{key.replace('_', ' ')}</span>
-                  <span>{value}</span>
+                  <span className="font-medium">{key.charAt(0).toUpperCase() + key.slice(1)}</span>
+                  <span>
+                    {Array.isArray(value) 
+                      ? <ul className="list-disc list-inside">
+                          {value.map((item, index) => <li key={index}>{item}</li>)}
+                        </ul>
+                      : typeof value === 'object'
+                        ? Object.entries(value).map(([subKey, subValue]) => (
+                            <div key={subKey}>
+                              {subKey}: {subValue}
+                            </div>
+                          ))
+                        : value}
+                  </span>
                 </div>
               ))}
             </div>
           </div>
 
-          <div>
+          <div className="mx-3">
             <h3 className="text-lg font-semibold mb-2">Storage Variants</h3>
             <div className="flex gap-2">
               {productData.variants.map((variant) => (
                 <button
                   key={variant}
-                  className={`btn ${selectedVariant === variant ? 'btn-primary' : 'btn-outline'}`}
+                  className={`btn uppercase ${selectedVariant === variant ? 'btn-primary' : 'btn-outline'}`}
                   onClick={() => setSelectedVariant(variant)}
                 >
-                  {variant}GB
+                  {variant}
                 </button>
               ))}
             </div>
@@ -77,33 +77,34 @@ export default function PlaceOrderPage() {
 
           <div className="card bg-base-100 shadow-xl">
             <div className="card-body">
-              <div className="flex items-center gap-4 mb-4">
+              <div className="flex items-center gap-2 mb-4">
                 <img
                   src={productData.store.logo}
                   alt={productData.store.name}
-                  width={40}
-                  height={40}
+                  width={50}
+                  height={50}
                   className="rounded"
                 />
                 <div>
                   <h3 className="font-semibold">{productData.store.name}</h3>
-                  <p className="text-sm text-base-content/70">{productData.store.type}</p>
                 </div>
               </div>
 
               <div className="space-y-4">
                 <div>
                   <p className="text-sm text-base-content/70">Price</p>
-                  <p className="text-2xl font-bold">{productData.currency}{productData.price}</p>
+                                      <p className="text-2xl font-bold flex">
+                                      {productData.price}
+                                          <span className="text-lg font-semibold me-1">{productData.currency}</span></p>
                 </div>
 
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-4 justify-between">
                   <div className="join border rounded-md">
                     <button className="btn btn-ghost join-item" onClick={decreaseQuantity}>-</button>
                     <span className="join-item px-4 flex items-center justify-center">{quantity}</span>
                     <button className="btn btn-ghost join-item" onClick={increaseQuantity}>+</button>
                   </div>
-                  <button className="btn btn-primary flex-1">ADD TO CART</button>
+                  <button className="btn btn-primary w-[360px] text-white">ADD TO CART</button>
                 </div>
               </div>
             </div>
