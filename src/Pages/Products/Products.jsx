@@ -1,16 +1,23 @@
-import React, { useState } from "react";
+import React from "react";
 import Container from "../../components/container";
-import useSuggestedProduct from "../../Hooks/useSuggestedProduct/useSuggestedProduct";
 import { ShoppingCart, Star } from "lucide-react";
 import { FaBangladeshiTakaSign } from "react-icons/fa6";
+import useProducts from "../../Hooks/useProducts/useProducts";
 
 const Products = () => {
-  const [suggestedProducts] = useSuggestedProduct(); 
+  const [products, isLoading] = useProducts();
+
   const handleAddCart = (product) => {
-    console.log(product);
+    console.log("Added to cart:", product);
   };
 
-  
+  if (isLoading) {
+    return (
+      <div className="flex justify-center items-center py-10">
+        <span className="loading loading-bars loading-lg"></span>
+      </div>
+    );
+  }
 
   return (
     <section className="md:py-10">
@@ -25,9 +32,9 @@ const Products = () => {
         </div>
 
         <div className="grid grid-cols-5 gap-4">
-          {suggestedProducts.map((product) => (
+          {products.map((product) => (
             <div
-              key={product.id} 
+              key={product.id}
               className="card bg-base-100 shadow-md shadow-pink-200 border"
             >
               <figure className="px-3 pt-3 flex flex-col justify-between h-full">
@@ -40,23 +47,23 @@ const Products = () => {
               <div className="px-3 py-3 flex flex-col justify-between">
                 <div>
                   <h2 className="card-title">{product.product_name}</h2>
-                  <p className="flex items-top">
+                  <p className="flex items-center">
                     Price:{" "}
-                    <span className="font-bold ms-2">
+                    <span className="font-bold ms-2 flex items-start">
                       {product.recent_price}
+                      <FaBangladeshiTakaSign className="text-xs" />
                     </span>
-                    <FaBangladeshiTakaSign className="text-xs" />
                   </p>
-                  <p className="flex items-top">
-                    Discount:{" "}
-                    <span className="text-red-400 ms-2 line-through">
-                      {product.discount}
+                  <p className="flex items-center">
+                    Previous:{" "}
+                    <span className="text-red-400 ms-2 line-through font-medium flex ">
+                      {product.discount_price}
+                      <FaBangladeshiTakaSign className="text-xs" />
                     </span>
-                    <FaBangladeshiTakaSign className="text-xs" />
                   </p>
                   <p>
                     <span className="flex items-center gap-1">
-                      Rating: {product.rating}
+                      Rating: {product.rating || "N/A"}
                       <Star size={16} className="text-yellow-500" />
                     </span>
                   </p>
@@ -74,8 +81,6 @@ const Products = () => {
             </div>
           ))}
         </div>
-
-       
       </Container>
     </section>
   );

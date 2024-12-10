@@ -82,7 +82,7 @@ export default function ProductPage() {
             </div>
 
             <div className="mx-3">
-              <h3 className="text-lg font-semibold mb-2">Storage Variants</h3>
+              <h3 className="text-lg font-semibold mb-2"> Variants</h3>
               <div className="flex gap-2">
                 {productData.variants.map((variant) => (
                   <button
@@ -96,7 +96,7 @@ export default function ProductPage() {
               </div>
             </div>
 
-            <div className="card bg-base-100 shadow-xl">
+            <div className="card bg-base-100 shadow-lg shadow-pink-200">
               <div className="card-body">
                 <div className="flex items-center gap-2 mb-4">
                   <img

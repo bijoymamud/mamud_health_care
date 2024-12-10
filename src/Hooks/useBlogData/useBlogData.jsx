@@ -22,7 +22,7 @@ import React, { useEffect, useState } from 'react'
 const useBlogs = () => {
  
     const [blogs, setBlogs] = useState([]);
-    const [isLoading, setIsLoading] = useState(true);
+    const [isLoading, setIsLoading] = useState(false);
 
 
     useEffect(() => {

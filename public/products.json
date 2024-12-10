@@ -1,0 +1,402 @@
+[
+    {
+      "id": 1,
+      "img": "https://smartwellness.com.au/wp-content/uploads/2024/04/HEM7120-Featured-Image.png?height=300&width=300",
+      "discount_price": "3885",
+      "recent_price": "3199",
+      "product_name": "Omron Hem-7120",
+      "product_category": "bp_machine"
+    },
+    {
+      "id": 2,
+      "img": "https://www.medm.com/assets/images/YK-BPA1.png?height=300&width=300",
+      "discount_price": "2850",
+      "recent_price": "2500",
+      "product_name": "Yonker YK-BPA1",
+      "product_category": "bp_machine"
+    },
+    {
+      "id": 3,
+      "img": "https://cdn.osudpotro.com/products/alrk2-1-1633252346764.webp?height=300&width=300",
+      "discount_price": "3190",
+      "recent_price": "2799",
+      "product_name": "ALPK2 V500 [Japan]",
+      "product_category": "bp_machine"
+    },
+    {
+      "id": 4,
+      "img": "https://cdn.osudpotro.com/products/123-1633854003677.webp?height=300&width=300",
+      "discount_price": "8199",
+      "recent_price": "7500",
+      "product_name": "Omron JPN500",
+      "product_category": "bp_machine"
+    },
+    {
+      "id": 5,
+      "img": "https://flexsolver-ttsh-production.s3.ap-southeast-1.amazonaws.com/e37cff70-805e-408e-bef2-3361bd0e49db-Omron-Blood-Pressure-Monitor-HEM-7143T-006115305R-F001.png?height=300&width=300",
+      "discount_price": "8199",
+      "recent_price": "7500",
+      "product_name": "Omron JPN600",
+      "product_category": "bp_machine"
+    },
+    {
+      "id": 6,
+      "img": "https://i.ibb.co.com/QQjLrJ1/omron-jpn750.webp/placeholder.svg?height=300&width=300",
+      "discount_price": "6910",
+      "recent_price": "5800",
+      "product_name": "Omron JPN750",
+      "product_category": "bp_machine"
+    },
+    {
+      "id": 7,
+      "img": "https://cdn.osudpotro.com/products/alrk2-1-1633252346764.webp?height=300&width=300",
+      "discount_price": "1850",
+      "recent_price": "1400",
+      "product_name": "ALPK2 V500 [China]",
+      "product_category": "bp_machine"
+    },
+    {
+      "id": 8,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "4612.50",
+      "recent_price": "6150.00",
+      "product_name": "Practical Shirt GHI",
+      "product_category": "Sterilization Equipment"
+    },
+    {
+      "id": 9,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "1087.20",
+      "recent_price": "1359.00",
+      "product_name": "Awesome Salad JKL",
+      "product_category": "Respiratory Care Devices"
+    },
+    {
+      "id": 10,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "3262.50",
+      "recent_price": "4350.00",
+      "product_name": "Refined Towels MNO",
+      "product_category": "Rehabilitation Equipment"
+    },
+    {
+      "id": 11,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "1799.10",
+      "recent_price": "2248.88",
+      "product_name": "Awesome Chips PQR",
+      "product_category": "Monitoring Devices"
+    },
+    {
+      "id": 12,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "2624.70",
+      "recent_price": "3280.88",
+      "product_name": "Incredible Soap STU",
+      "product_category": "Surgical Instruments"
+    },
+    {
+      "id": 13,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "1087.20",
+      "recent_price": "1359.00",
+      "product_name": "Refined Fish VWX",
+      "product_category": "Diagnostic Instruments"
+    },
+    {
+      "id": 14,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "3937.50",
+      "recent_price": "5250.00",
+      "product_name": "Intelligent Tuna YZA",
+      "product_category": "Imaging Equipment"
+    },
+    {
+      "id": 15,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "1574.10",
+      "recent_price": "1967.63",
+      "product_name": "Practical Shirt BCD",
+      "product_category": "Anesthesia Equipment"
+    },
+    {
+      "id": 16,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "3937.50",
+      "recent_price": "5250.00",
+      "product_name": "Awesome Salad EFG",
+      "product_category": "Laboratory Equipment"
+    },
+    {
+      "id": 17,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "1349.10",
+      "recent_price": "1686.38",
+      "product_name": "Ergonomic Sausages HIJ",
+      "product_category": "Dental Instruments"
+    },
+    {
+      "id": 18,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "2624.70",
+      "recent_price": "3280.88",
+      "product_name": "Intelligent Chair KLM",
+      "product_category": "Sterilization Equipment"
+    },
+    {
+      "id": 19,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "1799.10",
+      "recent_price": "2248.88",
+      "product_name": "Refined Towels NOP",
+      "product_category": "Respiratory Care Devices"
+    },
+    {
+      "id": 20,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "4612.50",
+      "recent_price": "6150.00",
+      "product_name": "Awesome Chips QRS",
+      "product_category": "Rehabilitation Equipment"
+    },
+    {
+      "id": 21,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "1574.10",
+      "recent_price": "1967.63",
+      "product_name": "Incredible Soap TUV",
+      "product_category": "Monitoring Devices"
+    },
+    {
+      "id": 22,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "3262.50",
+      "recent_price": "4350.00",
+      "product_name": "Refined Fish WXY",
+      "product_category": "Surgical Instruments"
+    },
+    {
+      "id": 23,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "1037.70",
+      "recent_price": "1297.13",
+      "product_name": "Intelligent Tuna ZAB",
+      "product_category": "Diagnostic Instruments"
+    },
+    {
+      "id": 24,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "2249.40",
+      "recent_price": "2811.75",
+      "product_name": "Practical Shirt CDE",
+      "product_category": "Imaging Equipment"
+    },
+    {
+      "id": 25,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "5037.60",
+      "recent_price": "6297.00",
+      "product_name": "Awesome Salad FGH",
+      "product_category": "Anesthesia Equipment"
+    },
+    {
+      "id": 26,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "1249.50",
+      "recent_price": "1388.33",
+      "product_name": "Ergonomic Sausages IJK",
+      "product_category": "Laboratory Equipment"
+    },
+    {
+      "id": 27,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "1037.95",
+      "recent_price": "1297.44",
+      "product_name": "Intelligent Chair LMN",
+      "product_category": "Dental Instruments"
+    },
+    {
+      "id": 28,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "3937.50",
+      "recent_price": "5250.00",
+      "product_name": "Refined Towels OPQ",
+      "product_category": "Sterilization Equipment"
+    },
+    {
+      "id": 29,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "1349.10",
+      "recent_price": "1686.38",
+      "product_name": "Awesome Chips RST",
+      "product_category": "Respiratory Care Devices"
+    },
+    {
+      "id": 30,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "2624.70",
+      "recent_price": "3280.88",
+      "product_name": "Incredible Soap UVW",
+      "product_category": "Rehabilitation Equipment"
+    },
+    {
+      "id": 31,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "1087.20",
+      "recent_price": "1359.00",
+      "product_name": "Refined Fish XYZ",
+      "product_category": "Monitoring Devices"
+    },
+    {
+      "id": 32,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "4612.50",
+      "recent_price": "6150.00",
+      "product_name": "Intelligent Tuna ABC",
+      "product_category": "Surgical Instruments"
+    },
+    {
+      "id": 33,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "1799.10",
+      "recent_price": "2248.88",
+      "product_name": "Practical Shirt DEF",
+      "product_category": "Diagnostic Instruments"
+    },
+    {
+      "id": 34,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "3262.50",
+      "recent_price": "4350.00",
+      "product_name": "Awesome Salad GHI",
+      "product_category": "Imaging Equipment"
+    },
+    {
+      "id": 35,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "1574.10",
+      "recent_price": "1967.63",
+      "product_name": "Ergonomic Sausages JKL",
+      "product_category": "Anesthesia Equipment"
+    },
+    {
+      "id": 36,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "3937.50",
+      "recent_price": "5250.00",
+      "product_name": "Intelligent Chair MNO",
+      "product_category": "Laboratory Equipment"
+    },
+    {
+      "id": 37,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "1349.10",
+      "recent_price": "1686.38",
+      "product_name": "Refined Towels PQR",
+      "product_category": "Dental Instruments"
+    },
+    {
+      "id": 38,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "2624.70",
+      "recent_price": "3280.88",
+      "product_name": "Awesome Chips STU",
+      "product_category": "Sterilization Equipment"
+    },
+    {
+      "id": 39,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "1087.20",
+      "recent_price": "1359.00",
+      "product_name": "Incredible Soap VWX",
+      "product_category": "Respiratory Care Devices"
+    },
+    {
+      "id": 40,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "4612.50",
+      "recent_price": "6150.00",
+      "product_name": "Refined Fish YZA",
+      "product_category": "Rehabilitation Equipment"
+    },
+    {
+      "id": 41,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "1799.10",
+      "recent_price": "2248.88",
+      "product_name": "Intelligent Tuna BCD",
+      "product_category": "Monitoring Devices"
+    },
+    {
+      "id": 42,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "3262.50",
+      "recent_price": "4350.00",
+      "product_name": "Practical Shirt EFG",
+      "product_category": "Surgical Instruments"
+    },
+    {
+      "id": 43,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "1574.10",
+      "recent_price": "1967.63",
+      "product_name": "Awesome Salad HIJ",
+      "product_category": "Diagnostic Instruments"
+    },
+    {
+      "id": 44,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "3937.50",
+      "recent_price": "5250.00",
+      "product_name": "Ergonomic Sausages KLM",
+      "product_category": "Imaging Equipment"
+    },
+    {
+      "id": 45,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "1349.10",
+      "recent_price": "1686.38",
+      "product_name": "Intelligent Chair NOP",
+      "product_category": "Anesthesia Equipment"
+    },
+    {
+      "id": 46,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "2624.70",
+      "recent_price": "3280.88",
+      "product_name": "Refined Towels QRS",
+      "product_category": "Laboratory Equipment"
+    },
+    {
+      "id": 47,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "1087.20",
+      "recent_price": "1359.00",
+      "product_name": "Awesome Chips TUV",
+      "product_category": "Dental Instruments"
+    },
+    {
+      "id": 48,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "4612.50",
+      "recent_price": "6150.00",
+      "product_name": "Incredible Soap WXY",
+      "product_category": "Sterilization Equipment"
+    },
+    {
+      "id": 49,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "1799.10",
+      "recent_price": "2248.88",
+      "product_name": "Refined Fish ZAB",
+      "product_category": "Respiratory Care Devices"
+    },
+    {
+      "id": 50,
+      "img": "/placeholder.svg?height=300&width=300",
+      "discount_price": "3262.50",
+      "recent_price": "4350.00",
+      "product_name": "Intelligent Tuna CDE",
+      "product_category": "Rehabilitation Equipment"
+    }
+  ]
