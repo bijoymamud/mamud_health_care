@@ -5,15 +5,17 @@
       "discount_price": "3885",
       "recent_price": "3199",
       "product_name": "Omron Hem-7120",
-      "product_category": "bp_machine"
+      "product_category": "bp_machine",
+      "catagory_id":1
     },
     {
       "id": 2,
-      "img": "https://www.medm.com/assets/images/YK-BPA1.png?height=300&width=300",
+      "img": "https://www.medm.com/assets/images/YK-BPA2.png?height=300&width=300",
       "discount_price": "2850",
       "recent_price": "2500",
       "product_name": "Yonker YK-BPA1",
-      "product_category": "bp_machine"
+      "product_category": "bp_machine",
+      "catagory_id":1
     },
     {
       "id": 3,
@@ -21,7 +23,8 @@
       "discount_price": "3190",
       "recent_price": "2799",
       "product_name": "ALPK2 V500 [Japan]",
-      "product_category": "bp_machine"
+      "product_category": "bp_machine",
+      "catagory_id":1
     },
     {
       "id": 4,
@@ -29,7 +32,8 @@
       "discount_price": "8199",
       "recent_price": "7500",
       "product_name": "Omron JPN500",
-      "product_category": "bp_machine"
+      "product_category": "bp_machine",
+      "catagory_id":1
     },
     {
       "id": 5,
@@ -37,7 +41,8 @@
       "discount_price": "8199",
       "recent_price": "7500",
       "product_name": "Omron JPN600",
-      "product_category": "bp_machine"
+      "product_category": "bp_machine",
+      "catagory_id":1
     },
     {
       "id": 6,
@@ -45,7 +50,8 @@
       "discount_price": "6910",
       "recent_price": "5800",
       "product_name": "Omron JPN750",
-      "product_category": "bp_machine"
+      "product_category": "bp_machine",
+      "catagory_id":1
     },
     {
       "id": 7,
@@ -53,7 +59,8 @@
       "discount_price": "1850",
       "recent_price": "1400",
       "product_name": "ALPK2 V500 [China]",
-      "product_category": "bp_machine"
+      "product_category": "bp_machine",
+      "catagory_id":1
     },
     {
       "id": 8,
