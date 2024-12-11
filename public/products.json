@@ -64,107 +64,121 @@
     },
     {
       "id": 8,
-      "img": "/placeholder.svg?height=300&width=300",
-      "discount_price": "4612.50",
-      "recent_price": "6150.00",
-      "product_name": "Practical Shirt GHI",
-      "product_category": "Sterilization Equipment"
+      "img": "https://media.e-valy.com/cms/products/images/9265ba3d-bc36-493c-a4a0-4891c68a5c4e?height=300&width=300",
+      "discount_price": "3110",
+      "recent_price": "2550",
+      "product_name": "Viva Guard Bp-35A",
+      "product_category": "bp_machine",
+      "catagory_id":1
     },
     {
       "id": 9,
-      "img": "/placeholder.svg?height=300&width=300",
-      "discount_price": "1087.20",
-      "recent_price": "1359.00",
-      "product_name": "Awesome Salad JKL",
-      "product_category": "Respiratory Care Devices"
+      "img": "https://cheapratebd.com/wp-content/uploads/2021/04/surgical-bp-machine-700.png?height=300&width=300",
+      "discount_price": "2350",
+      "recent_price": "1800",
+      "product_name": "Dearon Aneriod",
+      "product_category": "bp_machine",
+      "catagory_id":1
     },
     {
       "id": 10,
-      "img": "/placeholder.svg?height=300&width=300",
-      "discount_price": "3262.50",
-      "recent_price": "4350.00",
-      "product_name": "Refined Towels MNO",
-      "product_category": "Rehabilitation Equipment"
+      "img": "https://www.jadubazar.com/wp-content/uploads/2022/12/Getwell-GWDBPM-002-Upper-Arm-Electronic-BP-Monitor.png?height=300&width=300",
+      "discount_price": "2600",
+      "recent_price": "2199",
+      "product_name": "Getwell GWDBPM-002",
+      "product_category": "bp_machine",
+      "catagory_id":1
     },
     {
       "id": 11,
-      "img": "/placeholder.svg?height=300&width=300",
-      "discount_price": "1799.10",
-      "recent_price": "2248.88",
-      "product_name": "Awesome Chips PQR",
-      "product_category": "Monitoring Devices"
+      "img": "https://www.microvisione.com/wp-content/uploads/2024/08/BIOLAND.png?height=300&width=300",
+      "discount_price": "1150",
+      "recent_price": "978",
+      "product_name": "Bioland Easy",
+      "product_category": "diabetic_machine",
+      "catagory_id":2
+
     },
     {
       "id": 12,
-      "img": "/placeholder.svg?height=300&width=300",
-      "discount_price": "2624.70",
-      "recent_price": "3280.88",
-      "product_name": "Incredible Soap STU",
-      "product_category": "Surgical Instruments"
+      "img": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC8yODYwOVwvMjg2MDktQWNjdWNoZWstSW5zdGFudC1TLU1ldGVyLWV3cHNjMS5wbmciLCJlZGl0cyI6W119?height=300&width=300",
+      "discount_price": "1367",
+      "recent_price": "1299",
+      "product_name": "Accu-Chek Instant",
+      "product_category": "diabetic_machine",
+      "catagory_id":2
     },
     {
       "id": 13,
-      "img": "/placeholder.svg?height=300&width=300",
-      "discount_price": "1087.20",
-      "recent_price": "1359.00",
-      "product_name": "Refined Fish VWX",
-      "product_category": "Diagnostic Instruments"
+      "img": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJtZWRpY2luZVwvMzhcLzM4OTkyLTA0NzEyMDZfZ2V0d2VsbC1mYXN0LWJsb29kLXN1Z2FyLWNoZWNrLWNvbWJvLXBhY2steHp1Z3Y0LmpwZWciLCJlZGl0cyI6W119?height=300&width=300",
+      "discount_price": "2000",
+      "recent_price": "1760",
+      "product_name": "Getwell Suger Check",
+      "product_category": "diabetic_machine",
+      "catagory_id":2
     },
     {
       "id": 14,
-      "img": "/placeholder.svg?height=300&width=300",
-      "discount_price": "3937.50",
-      "recent_price": "5250.00",
-      "product_name": "Intelligent Tuna YZA",
-      "product_category": "Imaging Equipment"
+      "img": "https://healthway.com.bd/media/images/Care_Chek_Meter.original.jpegquality-30.format-jpeg.jpg?height=300&width=300",
+      "discount_price": "2120",
+      "recent_price": "1900",
+      "product_name": "Care Chek",
+      "product_category": "diabetic_machine",
+      "catagory_id":2
     },
     {
       "id": 15,
-      "img": "/placeholder.svg?height=300&width=300",
-      "discount_price": "1574.10",
-      "recent_price": "1967.63",
-      "product_name": "Practical Shirt BCD",
-      "product_category": "Anesthesia Equipment"
+      "img": "https://www.tysonbio.com/images/TB200/TB200.png?height=300&width=300",
+      "discount_price": "2530",
+      "recent_price": "2200",
+      "product_name": "Tyson Bio TB200",
+      "product_category": "diabetic_machine",
+      "catagory_id":2
     },
     {
       "id": 16,
-      "img": "/placeholder.svg?height=300&width=300",
-      "discount_price": "3937.50",
-      "recent_price": "5250.00",
-      "product_name": "Awesome Salad EFG",
-      "product_category": "Laboratory Equipment"
+      "img": "https://down-my.img.susercontent.com/file/c2f9bd194b9347dd2b17848056affe10?height=300&width=300",
+      "discount_price": "1999",
+      "recent_price": "1299",
+      "product_name": "Bionime Rightest GM700SB",
+      "product_category": "diabetic_machine",
+      "catagory_id":2
     },
     {
       "id": 17,
-      "img": "/placeholder.svg?height=300&width=300",
-      "discount_price": "1349.10",
-      "recent_price": "1686.38",
-      "product_name": "Ergonomic Sausages HIJ",
-      "product_category": "Dental Instruments"
+      "img": "https://images.tcdn.com.br/img/img_prod/746795/kit_medidor_de_glicose_g_425_3_completo_com_25_tiras_bioland_4226_1_eb42bc49acba8f16e4b4a79382b179a5.jpg?height=300&width=300",
+      "discount_price": "1349",
+      "recent_price": "1050",
+      "product_name": "Bioland G-425-3",
+      "product_category": "diabetic_machine",
+      "catagory_id":2
     },
     {
       "id": 18,
-      "img": "/placeholder.svg?height=300&width=300",
-      "discount_price": "2624.70",
-      "recent_price": "3280.88",
-      "product_name": "Intelligent Chair KLM",
-      "product_category": "Sterilization Equipment"
+      "img": "https://ueeshop.ly200-cdn.com/u_file/UPAV/UPAV667/2209/products/06/73d650ab90.jpg?height=300&width=300",
+      "discount_price": "1950",
+      "recent_price": "1499",
+      "product_name": "Safe Accu 2",
+      "product_category": "diabetic_machine",
+      "catagory_id":2
     },
     {
       "id": 19,
-      "img": "/placeholder.svg?height=300&width=300",
-      "discount_price": "1799.10",
-      "recent_price": "2248.88",
-      "product_name": "Refined Towels NOP",
-      "product_category": "Respiratory Care Devices"
+      "img": "https://i0.wp.com/rapidmedicalbd.com/wp-content/uploads/2024/07/OKmeter-Optima-Sugar-Check-Blood-Glucose-machine03-Rapid-Medical-bd.jpeg?fit=1600%2C1188&ssl=1?height=300&width=300",
+      "discount_price": "1950",
+      "recent_price": "1550",
+      "product_name": "OKmeter Optima",
+      "product_category": "diabetic_machine",
+      "catagory_id":2    
     },
     {
       "id": 20,
-      "img": "/placeholder.svg?height=300&width=300",
-      "discount_price": "4612.50",
-      "recent_price": "6150.00",
-      "product_name": "Awesome Chips QRS",
-      "product_category": "Rehabilitation Equipment"
+      "img": "https://tabletpharmacy.com.pk/cdn/shop/files/LIFECHECKMETER_300x.png?v=1698648664?height=300&width=300",
+      "discount_price": "1270",
+      "recent_price": "1190",
+      "product_name": "Life Check",
+      "product_category": "diabetic_machine",
+      "catagory_id":2
     },
     {
       "id": 21,

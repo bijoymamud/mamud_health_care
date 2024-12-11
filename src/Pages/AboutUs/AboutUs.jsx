@@ -1,5 +1,6 @@
 import { Microscope, Award, Users, PhoneCall } from 'lucide-react'
 import Container from '../../components/container'
+import { Link } from 'react-router-dom'
 
 export default function AboutUsSection() {
   return (
@@ -28,9 +29,9 @@ export default function AboutUsSection() {
                 </div>
               ))}
             </div>
-            <button className="btn btn-primary bg-blue-600 hover:bg-blue-700 border-none text-white">
+            <Link to="/products" className="btn btn-primary bg-blue-600 hover:bg-blue-700 border-none text-white">
               Discover Our Products
-            </button>
+            </Link>
           </div>
           <div className="relative h-96 lg:h-[500px] rounded-lg overflow-hidden shadow-xl">
             <img

@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import useProducts from '../../Hooks/useProducts/useProducts';
 import Container from '../../components/container';
+import { FaBangladeshiTakaSign } from 'react-icons/fa6';
 
 const ProductsPage = () => {
   const { id } = useParams();
@@ -19,16 +20,18 @@ const ProductsPage = () => {
 
         </h1>
      </div>
-      <div className="grid grid-cols-4 gap-5">
+      <div className="grid grid-cols-5 gap-5">
         {products?.filter((product) =>product.catagory_id == id)
         ?.map((product) => (
-          <div key={product.id} className="border rounded-lg p-4 shadow-lg">
-            <img  src={product.img} alt={product.product_name} className="w-full h-[250px] mx-auto object-cover" />
-            <h2 className="text-xl font-bold mt-4">{product.product_name}</h2>
-            <p className="text-gray-500 mt-2">
-              <span className="line-through">{product.discount_price}</span>{' '}
-              <span className="text-red-500">{product.recent_price}</span>
-            </p>
+          <div key={product.id} className="border  rounded-lg p-2 shadow-md shadow-pink-200">
+            <img  src={product.img} alt={product.product_name} className=" h-[250px] mx-auto object-cover" />
+            <h2 className="text-lg font-bold mt-4 ps-2">{product.product_name}</h2>
+            <div className="mt-2 ps-2">
+              <h1 className='text-black/60 font-semibold flex gap-3'>Recent Price: <span className="text-red-500 flex">{product.recent_price} <FaBangladeshiTakaSign className='text-xs' /></span></h1>
+              
+              <h1 className='text-black/60 font-semibold flex gap-3'>Regular Price: <span className="line-through text-red-500 flex">{product.discount_price}<FaBangladeshiTakaSign className='text-xs' /></span></h1>{' '}
+             
+            </div>
           </div>
         ))}
       </div>

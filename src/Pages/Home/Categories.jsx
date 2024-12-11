@@ -8,7 +8,7 @@ const Categories = () => {
   const categories = [
     {
       name: 'BP Machine',
-      id:1,
+      id: 1,
       category: "bp_machine",
       img: 'https://aalaquis.com/wp-content/uploads/2023/03/Omron-3-series-bp-monitor.png',
     },
