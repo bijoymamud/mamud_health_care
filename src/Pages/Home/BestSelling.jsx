@@ -8,8 +8,8 @@ const BestSelling = () => {
     const [bestProducts] = useBestSelling();
     console.log(bestProducts)
 
-    const handleAddCart = (id) => {
-        console.log(id)
+    const handleAddCart = (product) => {
+        console.log(product)
 }
 
   return (
@@ -48,7 +48,6 @@ const BestSelling = () => {
                                     <p ><span className='flex items-center gap-1'>Rating: { product.rating}<Star size={16} className='text-yellow-500'/></span></p>
                                 </div>
                                 <div className="card-actions">
-                                    
                                     <button onClick={()=>handleAddCart(product)} className=" mt-5 mx-auto p-1 px-5 flex items-center gap-1 bg-gradient-to-r from-[#CB2584] to-[#792D8F] hover:from-[#5C236E] hover:to-[#c0478b] text-white rounded-md "><ShoppingCart size={20} />Add Item</button>
                                     
                             </div>

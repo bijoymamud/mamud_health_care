@@ -10,6 +10,7 @@ import AddProducts from "../Pages/AddProducts/AddProducts";
 import AboutUsSection from "../Pages/AboutUs/AboutUs";
 import PlaceOrderPage from "../Pages/PlaceOrderPage/PlaceOrderPage";
 import ProductsPage from "../Pages/CategoryProduct/ProductsPage";
+import Dashboard from "../Layout/Dashborad";
   
 
 export const router = createBrowserRouter([
@@ -48,6 +49,10 @@ export const router = createBrowserRouter([
           {
             path: '/aboutUs',
             element:<AboutUsSection/>
+          },
+          {
+            path: '/dashboard',
+            element: <Dashboard/>
           }
     ],
         

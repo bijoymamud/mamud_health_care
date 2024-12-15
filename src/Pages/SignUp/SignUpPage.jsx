@@ -8,11 +8,12 @@ const SignUpPage = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors },
+    formState: { errors }, reset
   } = useForm();
 
   const onSubmit = (data) => {
     console.log("Sign-Up Data", data);
+    reset()
   };
 
   return (
@@ -123,7 +124,8 @@ const SignUpPage = () => {
                   <Phone className="w-5 h-5" />
                 </div>
                 <input
-                  type="tel"
+                  type="number"
+                placeholder="+880"
                   {...register("phone", { required: "Phone number is required" })}
                   className="input input-bordered w-full pl-10"
                 />
