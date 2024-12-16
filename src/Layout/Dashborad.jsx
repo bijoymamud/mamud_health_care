@@ -1,7 +1,8 @@
-import { FaCalendar,FaWallet } from "react-icons/fa6";
-import { IoMenu } from "react-icons/io5";
-import { MdLibraryBooks} from "react-icons/md";
-import { RiHome2Fill, RiShoppingCart2Fill } from "react-icons/ri";
+import { AiOutlineProduct } from "react-icons/ai";
+import { BsCartCheck } from "react-icons/bs";
+import { FiUsers } from "react-icons/fi";
+import {IoWalletOutline } from "react-icons/io5";
+import { RiHomeOfficeLine } from "react-icons/ri";
 import { Link, Outlet } from "react-router-dom";
 
 const Dashboard = () => {
@@ -21,17 +22,25 @@ const Dashboard = () => {
            
 
 
-                <> <li><Link to="/dashboard/userhome"><RiHome2Fill className="text-lg" />User Home</Link></li>
-                  <li><Link to="/dashboard/mycart"><RiShoppingCart2Fill className="text-lg" />My Cart</Link></li>
-                  <li><Link><FaCalendar className="text-lg" />Reservations</Link></li>
-                  <li><Link><FaWallet className="text-lg" />Payment History</Link></li></>
+            <>
+              <li>
+                <Link to="/dashboard/userhome" ><FiUsers className="text-lg"/><span>User Home</span></Link>
+              </li>
+              
+              <li className="py-1"><Link to="/dashboard/mycart"><BsCartCheck className="text-lg" />My Cart</Link></li>
+              
+              <li><Link to="/dashboard/paymentHistory"><IoWalletOutline className="text-lg" />Payment History</Link></li>
+            </>
         
 
             <div className="divider my-10"></div>
 
-            <li><Link to="/"><RiHome2Fill className="text-lg" />Home</Link></li>
-            <li><Link to="/ourMenu"><IoMenu className="text-lg" />Menu</Link></li>
-            <li><Link to="/order/salad"><MdLibraryBooks className="text-lg" />Order Food</Link></li>
+            <li>
+              <Link to="/"><RiHomeOfficeLine size="18px"/>Home</Link>
+            </li>
+            <li>
+              <Link to="/products"><AiOutlineProduct className="text-lg" />Products</Link>
+            </li>
 
           </ul>
 

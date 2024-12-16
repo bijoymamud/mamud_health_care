@@ -11,6 +11,9 @@ import AboutUsSection from "../Pages/AboutUs/AboutUs";
 import PlaceOrderPage from "../Pages/PlaceOrderPage/PlaceOrderPage";
 import ProductsPage from "../Pages/CategoryProduct/ProductsPage";
 import Dashboard from "../Layout/Dashborad";
+import UserHome from "../Layout/Dashboard/UserDashboard/UserHome";
+import MyOrderCart from "../Layout/Dashboard/UserDashboard/MyOrderCart";
+import PaymentHistory from "../Layout/Dashboard/UserDashboard/PaymentHistory";
   
 
 export const router = createBrowserRouter([
@@ -50,13 +53,29 @@ export const router = createBrowserRouter([
             path: '/aboutUs',
             element:<AboutUsSection/>
           },
-          {
-            path: '/dashboard',
-            element: <Dashboard/>
-          }
-    ],
         
+    ],  
   },
+
+  {
+    path: 'dashboard',
+    element: <Dashboard />,
+    children: [
+      {
+        path: 'userHome',
+        element: <UserHome/>
+      },
+      {
+        path: 'mycart',
+        element: <MyOrderCart/>
+      },
+      {
+        path: 'paymentHistory',
+        element: <PaymentHistory/>
+      }
+    ],
+  },
+
   {
     path: '/login',
     element: <LoginPage/>
